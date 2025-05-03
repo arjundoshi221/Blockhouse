@@ -21,9 +21,9 @@ README.md                   ← this file
 python optimized_backtest.py --csv data/l1_day.csv --plot
 ```
 
-\* One self‑contained script, imports only `numpy`, `pandas`, `multiprocessing`, and the std‑lib.
-\* Finishes in **≈ 60 s** on an i7‑10510U / 16 GB laptop.
-\* Prints a single JSON block (baselines + tuned models) and saves `media/results_ALL.png`.
+- One self‑contained script, imports only `numpy`, `pandas`, `multiprocessing`, and the std‑lib.
+- Finishes in **≈ 60 s** on an i7‑10510U / 16 GB laptop.
+- Prints a single JSON block (baselines + tuned models) and saves `media/results_ALL.png`.
 
 ---
 
@@ -73,7 +73,8 @@ Thought for a second
 
 The cumulative‐cash plot tells the story clearly:
 
-![Cumulative cash](/mnt/data/f24c84f4-2820-4a46-a6c1-921c557db17c.png)
+![image](https://github.com/user-attachments/assets/ef305363-1dce-4d1e-bc4b-9238ab631d8c)
+
 
 1. **STATIC (blue)**
 
@@ -108,9 +109,10 @@ Displayed size is replaced by
 ```math
 \tilde S = S\;\bigl(\tfrac{S-\mu_{100}}{\sigma_{100}}\bigr)^\gamma \times \mathrm{fill\_rate},
 \quad \gamma = 0.7
+```
 
 which jointly penalises tiny, volatile, and low‑fill venues. Switching from a logistic σ to the lighter‑tailed power‑law removes the sigmoid’s saturation, giving an extra **≈ 1 bp**.
-```
+
 ---
 
 ## 8 . Suggested next steps
