@@ -68,8 +68,6 @@ _(negative means cheaper than best‑ask)_
 
 ## 6 . Plot analysis (`results_ALL.png`)
 
-Thought for a second
-
 The cumulative‐cash plot tells the story clearly:
 
 ![image](https://github.com/user-attachments/assets/ef305363-1dce-4d1e-bc4b-9238ab631d8c)
