@@ -116,9 +116,9 @@ which jointly penalises tiny, volatile, and low‑fill venues. Switching from a 
 
 1. **Queue‑position penalty** (already scaffolded): add
 
-   $$
+   ```math
    \theta_{\text{wait}}\;\frac{\text{queue ahead}}{\text{EWMA trade‑rate}}
-   $$
+   ```
 
    inside the allocator. Pays half‑ticks for head‑of‑queue during high flow – simulated lift roughly **5–8 bp** in fast markets.
 
