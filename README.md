@@ -73,7 +73,8 @@ Thought for a second
 
 The cumulative‐cash plot tells the story clearly:
 
-![Cumulative cash](/mnt/data/f24c84f4-2820-4a46-a6c1-921c557db17c.png)
+![image](https://github.com/user-attachments/assets/2cca002b-63b3-431d-a344-2e6936cf3f5e)
+
 
 1. **STATIC (blue)**
 
