@@ -20,9 +20,8 @@ README.md                   ← this file
 ```bash
 python optimized_backtest.py --csv data/l1_day.csv --plot
 ```
-
-- One self‑contained script, imports only `numpy`, `pandas`, `multiprocessing`, and the std‑lib.
-- Finishes in **≈ 60 s** on an i7‑10510U / 16 GB laptop.
+- One self‑contained script, imports only `numpy`, `pandas`, `multiprocessing`, and the std‑lib.
+- Finishes in **≈ 60 s** on an i7‑10510U / 16 GB laptop.
 - Prints a single JSON block (baselines + tuned models) and saves `media/results_ALL.png`.
 
 ---
