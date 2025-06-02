@@ -126,7 +126,5 @@ which jointly penalises tiny, volatile, and low‑fill venues. Switching from a 
 
 3. **GPU vectorisation**: the greedy allocator is embarrassingly parallel across snapshots and could see a > 5× speed‑up on CUDA / numba.
 
----
 
-_Back‑tester meets all contest requirements – single file, ≤ 60 s runtime, clear > 3 bp improvement over baselines, and an explanatory README with one concrete enhancement proposal._
 ```
